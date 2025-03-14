@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url(/css/colors.css);
+
+body {
+    font-family: "Mulish", serif; 
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1, h2 {
+    font-family: "Merriweather";
+    font-weight: 900;
+    color: var(--headline-color); 
+}
+
+h3 {
+    font-family: "Mulish", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--black-color); 
+}
+
+h4 {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--headline-color); 
+}
+
+p, .caption, .rating {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--p-color); 
+}
+
+.caption_type {
+    font-family: "Mulish", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--genre_font-color);
+}
+
+a {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--link-color); 
+}
+
+/* SIZE */
+h1 {
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: .875rem;
+}
+h4 {
+    font-size: .75rem;
+}
+
+.caption, .rating {
+    font-size: .75rem;
+}
+
+a {
+    font-size: .625rem;
+}
+
+.caption_type {
+    font-size: .5rem;
+}
+
+
+ /* LINE HEIGHT  */
+.description p {
+    line-height: 1.375rem;
+}
+
+/* LETTER SPACING  */
+h1, h2 {
+    letter-spacing: 0.02rem;
+}
+
+h3 {
+    letter-spacing: 0.018rem;
+}
+
+h4 {
+    letter-spacing: 0.018rem;
+}
+
+.caption, .rating, .description {
+    letter-spacing: 0.015rem;
+}
+
+a {
+    letter-spacing: 0.013rem;
+}
+
+.caption_type {
+    letter-spacing: 0.01rem;
+}

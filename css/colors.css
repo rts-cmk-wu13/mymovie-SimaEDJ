@@ -1,0 +1,22 @@
+:root {
+    /* Type color */
+    --genre-color: #dbe3ff;
+    --genre_font-color: #88a4e8;
+    --star-color: #FFC319;
+
+    /* font color */
+
+    --p-color: #9c9c9c;
+    --headline-color: #110e47;
+    --link-color: #aaa9b1; /* see more */
+
+    /* GREYSCALE */
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+main {
+    background-color: var(--white-color);
+}
+
+
